@@ -50,8 +50,6 @@ qfind () {
     return 0
 }
 
-# Custom exports
-## Set EDITOR to /usr/bin/vim if Vim is installed
-if [ -f /usr/bin/vim ]; then
-    export EDITOR=/usr/bin/vim
-fi
+bindkey -v
+bindkey -M viins 'jj' vi-cmd-mode
+bindkey '^R' history-incremental-search-backward

@@ -1,0 +1,6 @@
+# Export
+## P4
+export P4USER=house.li
+export P4PASSWD=@lenciel
+export P4CLIENT=alien_ubuntu
+export P4PORT=p4proxy-cn-1669.myriad.int:1999
