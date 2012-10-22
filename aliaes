@@ -125,7 +125,7 @@ alias wermit=/home/ezhibwa/tools/wermit
 alias gk='cd d:/Lenciel/P4Space/house.li_cn-gqqlrm/depot/ds/products/MSSS/dev/K_team/'
 
 #Common commands
-alias vi="vim"
+alias vi=vim
 alias svi="sudo vim"
 
 #P4
