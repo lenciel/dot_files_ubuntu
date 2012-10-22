@@ -41,7 +41,6 @@ if [ -f $HOME/.profile ]; then
 fi
 
 if [ -f $HOME/.aliases ]; then
-    echo "shit"
     source $HOME/.aliases  # Read Mac .profile, if present.
 fi
 
