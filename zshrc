@@ -40,8 +40,9 @@ if [ -f $HOME/.profile ]; then
     source $HOME/.profile  # Read Mac .profile, if present.
 fi
 
-if [ -f $HOME/.aliaes ]; then
-    source $HOME/.aliaes  # Read Mac .profile, if present.
+if [ -f $HOME/.aliases ]; then
+    echo "shit"
+    source $HOME/.aliases  # Read Mac .profile, if present.
 fi
 
 # qfind - used to quickly find files that contain a string in a directory
