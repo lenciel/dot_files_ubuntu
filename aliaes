@@ -125,12 +125,8 @@ alias wermit=/home/ezhibwa/tools/wermit
 alias gk='cd d:/Lenciel/P4Space/house.li_cn-gqqlrm/depot/ds/products/MSSS/dev/K_team/'
 
 #Common commands
-<<<<<<< HEAD
-alias vi=vim
-=======
 alias vi="vim"
 alias svi="sudo vim"
->>>>>>> b369714c16ce65e32cce10f9135d54892c0ede7a
 
 #P4
 alias icm='p4 interchanges //depot/ds/products/MSSS/dev/K_team/... //depot/ds/products/MSSS/dev/main/...'
@@ -166,11 +162,7 @@ alias got='git '
 alias get='git '
 
 # Alias for utility
-<<<<<<< HEAD
-alias gg="sudo python /usr/local/share/goagent-goagent-175951d/local/proxy.py"
-=======
 alias gg="python ~/bin/goagent_local/proxy.py"
->>>>>>> b369714c16ce65e32cce10f9135d54892c0ede7a
 alias postnv="post-review -d $1 --username 'House.Li@myriadgroup.com' --password 'Welcome5' -o"
 alias postv="post-review -r -d $1 --username 'House.Li@myriadgroup.com' --password 'Welcome5' -o"
 alias makes="make -j4 showcommands"
