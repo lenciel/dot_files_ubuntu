@@ -2,5 +2,7 @@
 ## P4
 export P4USER=house.li
 export P4PASSWD=@lenciel
-export P4CLIENT=alien_ubuntu
+export P4CLIENT=house_alien_jellybean_ubuntu64_dev
 export P4PORT=p4proxy-cn-1669.myriad.int:1999
+
+export PATH="$HOME/.rbenv/bin:$PATH"

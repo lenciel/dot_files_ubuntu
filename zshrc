@@ -53,3 +53,7 @@ qfind () {
 bindkey -v
 bindkey -M viins 'jj' vi-cmd-mode
 bindkey '^R' history-incremental-search-backward
+
+
+export USE_CCAChE=1
+export CCACHE_DIR=/home/lenciel/workspace/alien_jellybean/mips-jellybean/.ccache

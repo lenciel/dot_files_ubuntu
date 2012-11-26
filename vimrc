@@ -109,7 +109,7 @@
 " }
 
 " Vim UI {
-    if filereadable(expand("~/.oh-my-zsh/.vim/bundle/vim-colors-solarized/colors/solarized.vim"))
+    if filereadable(expand("~/.oh-my-zsh/vim/.vim/bundle/vim-colors-solarized/colors/solarized.vim"))
         let g:solarized_termcolors=256
         color solarized                 " load a colorscheme
     endif
@@ -433,7 +433,7 @@
         let g:neocomplcache_max_list = 15
         let g:neocomplcache_auto_completion_start_length = 3
         let g:neocomplcache_force_overwrite_completefunc = 1
-        let g:neocomplcache_snippets_dir='~/.oh-my-zsh/.vim/bundle/snipmate-snippets/snippets'
+        let g:neocomplcache_snippets_dir='~/.oh-my-zsh/vim/.vim/bundle/snipmate-snippets/snippets'
 
         " AutoComplPop like behavior.
         let g:neocomplcache_enable_auto_select = 0

@@ -8,7 +8,7 @@
 
 dir=~/dot_files_ubuntu                    # dotfiles directory
 olddir=~/dot_files_old             # old dotfiles backup directory
-files="aliases bashrc vimrc zshrc oh-my-zsh private"    # list of files/folders to symlink in homedir
+files="aliases bashrc vimrc zshrc oh-my-zsh private tmux.conf"    # list of files/folders to symlink in homedir
 
 ##########
 

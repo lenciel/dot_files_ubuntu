@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-endpath="$HOME/.oh-my-zsh/vim"
+endpath="$HOME/dot_files_ubuntu/oh-my-zsh/vim"
 
 warn() {
     echo "$1" >&2

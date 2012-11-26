@@ -3,7 +3,6 @@
 #------------------------------------------------------
 
 # Alias's to local workstations
-alias andlinux='ssh 192.168.11.1 -l root'
 alias hist='history | grep $1' #Requires one input
 
 # ALIAS TO REMOTE SERVERS
@@ -125,8 +124,12 @@ alias wermit=/home/ezhibwa/tools/wermit
 alias gk='cd d:/Lenciel/P4Space/house.li_cn-gqqlrm/depot/ds/products/MSSS/dev/K_team/'
 
 #Common commands
+<<<<<<< HEAD
 alias vi=vim
+=======
+alias vi="vim"
 alias svi="sudo vim"
+>>>>>>> b369714c16ce65e32cce10f9135d54892c0ede7a
 
 #P4
 alias icm='p4 interchanges //depot/ds/products/MSSS/dev/K_team/... //depot/ds/products/MSSS/dev/main/...'
@@ -169,6 +172,9 @@ alias makes="make -j4 showcommands"
 
 # Alias for perforce
 alias pun="p4 unshelve -s"
+alias plist="p4 changes -s pending -c $P4CLIENT"
+alias p4log="p4 filelog $1"
+alias p4all="p4 opened"
 
 # Alias for alien
 alias gw="cd ~/workspace/alien/android/"
