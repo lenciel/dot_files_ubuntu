@@ -37,7 +37,6 @@ export TERM="xterm-256color"
 export PATH=$HOME/workspace/alien_jellybean/mips-jellybean/prebuilts/misc/linux-x86/ccache/ccache:/usr/local/p4/bin:/usr/local/git/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/local/bin:/opt/local/sbin:/usr/X11/bin
 export USE_CCACHE=1
 export CCACHE_DIR=/home/lenciel/workspace/alien_jellybean/mips-jellybean/.ccache
-
 # Put any proprietary or private functions/values in ~/.private, and this will source them
 source ~/.private
 #source ~/.profile

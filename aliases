@@ -173,9 +173,9 @@ alias p4log="p4 filelog $1"
 alias p4all="p4 opened"
 
 # Alias for alien
-alias gw="cd ~/workspace/alien/android/"
+alias gjb="cd ~/workspace/alien_jellybean/android/"
 alias sc="~/nzos/a2dclient 10.15.5.238/testmgr -w -console 0"
-alias svnc="~/workspace/alien_jellybean/mips-jellybean/out/target/product/alien_ubuntu_vnc/system/script/start_alien.sh --no-autorestart"
-
+alias svnc="~/workspace/alien_jellybean/android/out/target/product/alien_ubuntu_vnc/system/script/start_alien.sh --no-autorestart"
+alias rvnc="source ~/bin/rsync_jb_vnc_system.sh"
 # Alias for apache
 alias eac="vi /etc/apache2/apache2.conf"
