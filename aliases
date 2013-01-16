@@ -1,3 +1,5 @@
+alias lr="ls -R | grep ':$' | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
+alias gl="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 #------------------------------------------------------
 # ALIAS'S OF ALL TYPES SHAPES AND FORMS ;)
 #------------------------------------------------------
